@@ -1,6 +1,5 @@
-import sys
-import os    
+import os
 
-x = 123    
+x = 123
 
 print(os.getcwd())

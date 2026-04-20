@@ -8,13 +8,13 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: 24f1001667@ds.study.iitm.ac.in
         run: echo "Hello, world!"
-      
+
       - name: Display timestamp
         run: date
